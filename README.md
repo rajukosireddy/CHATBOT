@@ -27,7 +27,7 @@ Examples
 Contributing
 Feel free to contribute to this project by adding more patterns, improving the code, or suggesting enhancements. Create a pull request or open an issue to discuss your ideas.
 
-   1. Data Dictionary
+   1. Data Dictionary:
 
 * data = {
     "hi": "Hi there! I'm a friendly chatbot here to assist you?",
@@ -67,7 +67,7 @@ Feel free to contribute to this project by adding more patterns, improving the c
    
   The get_response function iterates through the data dictionary and checks if any patterns match the user input. If a match is found, it returns the corresponding response. If no match is found, it returns a default response indicating that it didn't understand the input.
 
-3. Main Program
+3. Main Program:
    
  print("Chatbot: Hi! I'm a simple chatbot, I'm here to assist you!")
 
