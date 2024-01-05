@@ -29,7 +29,8 @@ Feel free to contribute to this project by adding more patterns, improving the c
 
    1. Data Dictionary:
 
-* data = {
+```bash
+ data = {
     "hi": "Hi there! I'm a friendly chatbot here to assist you?",
     "who is your owner": "MY OWNER IS RAJU",
     "hello": "Hello! How can I help you today?",
@@ -53,6 +54,7 @@ Feel free to contribute to this project by adding more patterns, improving the c
     "what is the latest technology news": "I'm sorry, I don't have real-time information. You can check reputable technology news websites for the latest updates.",
     "what programming languages do you know": "I'm designed to understand and respond to natural language, but I don't 'know' programming languages in the way humans do.",
 }
+```
 
  This dictionary data contains predefined patterns as keys and corresponding responses as values. Each key represents a user input pattern, and the associated value is the response the chatbot will provide.
  
