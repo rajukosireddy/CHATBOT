@@ -94,7 +94,7 @@ while True:
 
 The main program initializes the chatbot with a greeting. It then enters a loop where it continuously takes user input, processes it using the get_response function, and prints the chatbot's response. The loop continues until the user inputs "bye," at which point the chatbot says goodbye and the program exits.  
 
-## Continuous Expansion
+## Continuous Expansion:
 To enhance the chatbot, you can continue adding more patterns and responses to the data dictionary. For example, you can add patterns related to technical topics, specific queries, or any other interactions you want the chatbot to handle.
 
 
