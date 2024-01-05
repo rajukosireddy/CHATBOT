@@ -27,7 +27,7 @@ Examples
 Contributing
 Feel free to contribute to this project by adding more patterns, improving the code, or suggesting enhancements. Create a pull request or open an issue to discuss your ideas.
 
-   1. Data Dictionary:
+## 1. Data Dictionary:
 
 ```bash
  data = {
@@ -59,19 +59,22 @@ Feel free to contribute to this project by adding more patterns, improving the c
  This dictionary data contains predefined patterns as keys and corresponding responses as values. Each key represents a user input pattern, and the associated value is the response the chatbot will provide.
  
 
-2. get_response Function:
+## 2. get_response Function:
 
-	 def get_response(user_input):
+``` bash
+	def get_response(user_input):
     for pattern, response in data.items():
         if pattern in user_input:
             return response
     return "I'm sorry, I didn't understand that. Can you please rephrase your sentence?"
-   
+```
+  
   The get_response function iterates through the data dictionary and checks if any patterns match the user input. If a match is found, it returns the corresponding response. If no match is found, it returns a default response indicating that it didn't understand the input.
 
-3. Main Program:
+## 3. Main Program:
    
- print("Chatbot: Hi! I'm a simple chatbot, I'm here to assist you!")
+```bash
+print("Chatbot: Hi! I'm a simple chatbot, I'm here to assist you!")
 
 while True:
     user_input = input("Me: ")
@@ -80,11 +83,11 @@ while True:
         break
     response = get_response(user_input)
     print("Chatbot:", response)
-    
+```    
 
 The main program initializes the chatbot with a greeting. It then enters a loop where it continuously takes user input, processes it using the get_response function, and prints the chatbot's response. The loop continues until the user inputs "bye," at which point the chatbot says goodbye and the program exits.  
 
-4. Continuous Expansion
+## 4. Continuous Expansion
 To enhance the chatbot, you can continue adding more patterns and responses to the data dictionary. For example, you can add patterns related to technical topics, specific queries, or any other interactions you want the chatbot to handle.
 
 
