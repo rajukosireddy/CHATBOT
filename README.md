@@ -3,7 +3,9 @@
 ## Table of contents
 
 - [Data Dictionary](#data-dictionary) 
-- [get_response Function](#get_response-function) 
+- [get_response Function](#get_response-function)
+- [Main Program](#main-program)
+- [Continuous Expansion](#continuous-expansion)
 
 ## Simple Chatbot
 This is a basic implementation of a chatbot in Python. The chatbot responds to user inputs with predefined patterns and provides corresponding responses.
@@ -76,7 +78,7 @@ Feel free to contribute to this project by adding more patterns, improving the c
   
   The get_response function iterates through the data dictionary and checks if any patterns match the user input. If a match is found, it returns the corresponding response. If no match is found, it returns a default response indicating that it didn't understand the input.
 
-## 3. Main Program:
+## Main Program:
    
 ```bash
 print("Chatbot: Hi! I'm a simple chatbot, I'm here to assist you!")
@@ -92,7 +94,7 @@ while True:
 
 The main program initializes the chatbot with a greeting. It then enters a loop where it continuously takes user input, processes it using the get_response function, and prints the chatbot's response. The loop continues until the user inputs "bye," at which point the chatbot says goodbye and the program exits.  
 
-## 4. Continuous Expansion
+## Continuous Expansion
 To enhance the chatbot, you can continue adding more patterns and responses to the data dictionary. For example, you can add patterns related to technical topics, specific queries, or any other interactions you want the chatbot to handle.
 
 
