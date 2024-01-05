@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Data Dictionary](#data-dictionary) 
+- [get_response Function](#get_response-function) 
 
 ## Simple Chatbot
 This is a basic implementation of a chatbot in Python. The chatbot responds to user inputs with predefined patterns and provides corresponding responses.
@@ -63,7 +64,7 @@ Feel free to contribute to this project by adding more patterns, improving the c
  This dictionary data contains predefined patterns as keys and corresponding responses as values. Each key represents a user input pattern, and the associated value is the response the chatbot will provide.
  
 
-## 2. get_response Function:
+## get_response Function:
 
 ``` bash
 	def get_response(user_input):
