@@ -1,5 +1,9 @@
 # CODSOFT
 
+## Table of contents
+
+- [Data Dictionary](#data-dictionary) 
+
 ## Simple Chatbot
 This is a basic implementation of a chatbot in Python. The chatbot responds to user inputs with predefined patterns and provides corresponding responses.
 Features
@@ -27,7 +31,7 @@ Examples
 Contributing
 Feel free to contribute to this project by adding more patterns, improving the code, or suggesting enhancements. Create a pull request or open an issue to discuss your ideas.
 
-## 1. Data Dictionary:
+## Data Dictionary:
 
 ```bash
  data = {
