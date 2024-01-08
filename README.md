@@ -65,7 +65,6 @@ Feel free to contribute to this project by adding more patterns, improving the c
 
  This dictionary data contains predefined patterns as keys and corresponding responses as values. Each key represents a user input pattern, and the associated value is the response the chatbot will provide.
  
-
 ## get_response Function:
 
 ``` bash
