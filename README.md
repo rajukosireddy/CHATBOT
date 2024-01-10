@@ -8,6 +8,7 @@
 - [Continuous Expansion](#continuous-expansion)
 
 ## Simple Chatbot
+
 This is a basic implementation of a chatbot in Python. The chatbot responds to user inputs with predefined patterns and provides corresponding responses.
 Features
 * Greetings: The chatbot responds to common greetings like "hi" and "hello."
