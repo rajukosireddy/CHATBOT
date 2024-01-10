@@ -1,4 +1,4 @@
-# CODSOFT
+# CHATBOT
 
 ## Table of contents
 
